@@ -1,0 +1,9 @@
+---
+- name:
+  hosts: win1.example.com
+  tasks:
+
+    - name:
+      win_feature:
+        name: web-server
+        state: present
